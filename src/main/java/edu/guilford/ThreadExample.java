@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class ThreadExample {
     public static void main(String[] args) {
-        int nThreads = 8;
+        int nThreads = 1;
         PartitionData[] partitionData = new PartitionData[nThreads];
         Thread[] threads = new Thread[nThreads];
         for (int i = 0; i < nThreads; i++) {
